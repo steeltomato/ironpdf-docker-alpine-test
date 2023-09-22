@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>IronPdfAlpineTest</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IronPDF" Version="2023.9.8" />
+    <PackageReference Include="IronPDF.Native.Chrome.Linux" Version="2023.9.19098" />
+  </ItemGroup>
+
+</Project>
